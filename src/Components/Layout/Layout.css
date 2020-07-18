@@ -1,0 +1,10 @@
+.main {
+  background: #e5e5e5;
+  height: 100vh;
+}
+
+.content {
+  position: relative;
+  top: 107px;
+  padding: 0px 0px 0px 150px;
+}

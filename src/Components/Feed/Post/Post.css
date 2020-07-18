@@ -1,0 +1,11 @@
+.post {
+  position: absolute;
+  width: 236px;
+  height: 360.74px;
+  top: 20px;
+  background: #ffffff;
+  border: 1.12381px solid #ececec;
+  box-sizing: border-box;
+  box-shadow: -3px 3.37143px 6.74286px rgba(0, 0, 0, 0.12);
+  border-radius: 4.49524px;
+}

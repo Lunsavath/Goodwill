@@ -1,0 +1,62 @@
+.header {
+  position: absolute;
+  width: 100%;
+  height: 107px;
+  left: 0px;
+  background: linear-gradient(160.77deg, #0abf53 9.38%, #05e8b1 95.14%);
+}
+
+.container {
+  position: relative;
+}
+
+.logoname {
+  position: absolute;
+  width: 249.29px;
+  height: 26px;
+  left: 102.65px;
+  top: 38px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 21.4118px;
+  text-align: center;
+  line-height: 26px;
+  letter-spacing: 0.2rem;
+  color: #fdfdfd;
+}
+
+.sublogo {
+  position: absolute;
+  width: 212.59px;
+  height: 21.41px;
+  left: 102.65px;
+  top: 68.59px;
+}
+
+.usebutton {
+  position: absolute;
+  width: 114.48px;
+  height: 46.9px;
+  right: 126.52px;
+  top: 42px;
+  background: #f5f5f5;
+  border-radius: 45.5043px;
+  cursor: pointer;
+}
+
+.text {
+  position: absolute;
+  width: 66.3px;
+  height: 16.17px;
+  right: 151.01px;
+  top: 56.55px;
+  font-family: "Monsterrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.937px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.11rem;
+  color: #0abf53;
+}
