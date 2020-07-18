@@ -1,10 +1,13 @@
 import React from "react";
 import classes from "./PostFooter.css";
+//import Trending from "../../../UI/Trending/Trending";
 
 const postFooter = () => {
   return (
-    <div>
-      <div className={classes.footersection}></div>
+    <div className={classes.content}>
+      <div className={classes.footersection}>
+        <div className={classes.trending}></div>
+      </div>
     </div>
   );
 };
