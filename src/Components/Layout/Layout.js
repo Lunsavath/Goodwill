@@ -11,7 +11,9 @@ class Layout extends Component {
         <div className={classes.main}>
           <Header />
           <div className={classes.content}>
-            <Post />
+            <div className={classes.padding}>
+              <Post />
+            </div>
           </div>
         </div>
       </Aux>

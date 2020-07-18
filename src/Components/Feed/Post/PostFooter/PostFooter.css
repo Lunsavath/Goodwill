@@ -1,0 +1,14 @@
+.footersection {
+  position: absolute;
+  width: 100%;
+  height: 34.84px;
+  left: 1.12px;
+  right: 1.12px;
+  bottom: 1.12px;
+  top: 327.03px;
+  background: #08d079;
+  opacity: 0.2;
+  border: 1.12381px solid rgba(0, 161, 252, 0.15);
+  box-sizing: border-box;
+  border-radius: 0px 0px 4.49524px 4.49524px;
+}

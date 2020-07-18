@@ -1,0 +1,44 @@
+.imagecontainer {
+  position: absolute;
+  width: 52px;
+  height: 53px;
+  left: 5px;
+  top: 1px;
+}
+
+.image {
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.nameholder {
+  position: absolute;
+  width: 80%;
+  height: 14px;
+  left: 58px;
+  top: 11px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5b6173;
+  white-space: nowrap;
+}
+
+.timestamp {
+  position: absolute;
+  width: 63px;
+  height: 15px;
+  left: 60px;
+  top: 26px;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #9a9b9e;
+  white-space: nowrap;
+}
