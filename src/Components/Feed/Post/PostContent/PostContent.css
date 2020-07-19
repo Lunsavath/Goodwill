@@ -1,0 +1,40 @@
+.container {
+  position: relative;
+  top: 53px;
+  height: 271.5px;
+  box-sizing: border-box;
+}
+
+.image {
+  position: absolute;
+  left: 10.11px;
+  right: 7.87px;
+  height: 159.58px;
+}
+
+.text {
+  position: absolute;
+  width: 206.78px;
+  height: 66.3px;
+  left: 20.35px;
+  top: 174.27px;
+  font-family: "Quicksand";
+  font-size: 13.4857px;
+  line-height: 16px;
+  font-weight: normal;
+  font-style: normal;
+  color: #5b6173;
+}
+
+.fullpost {
+  position: absolute;
+  width: 71.92px;
+  height: 16.86px;
+  top: 70px;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.4211px;
+  line-height: 15px;
+  color: #0afb53;
+}
