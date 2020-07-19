@@ -10,8 +10,9 @@ const header = () => {
       <div className={classes.sublogo}>
         <img src={sublogo} alt="" />
       </div>
-      <div className={classes.usebutton}></div>
-      <div className={classes.text}>USE APP</div>
+      <div className={classes.usebutton}>
+        <div className={classes.text}>USE APP</div>
+      </div>
     </div>
   );
 };
