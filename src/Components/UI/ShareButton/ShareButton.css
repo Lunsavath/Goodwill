@@ -1,0 +1,29 @@
+.sharebutton {
+  position: absolute;
+  width: 45%;
+  height: 34.84px;
+  right: 1.12px;
+  background: rgba(8, 209, 125, 0.1);
+  border: 1.12381px solid rgba(0, 161, 252, 0.15);
+  box-sizing: border-box;
+  border-radius: 0px 0px 4.49524px 0px;
+  cursor: pointer;
+}
+
+.sharebutton img {
+  position: absolute;
+  left: 11.24px;
+  top: 4.74px;
+}
+
+.sharebutton text {
+  position: absolute;
+  top: 8.11px;
+  left: 32.86px;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12.4211px;
+  line-height: 15px;
+  color: #0abf53;
+}

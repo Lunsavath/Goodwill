@@ -8,8 +8,8 @@ class Layout extends Component {
   render() {
     return (
       <Aux>
+        <Header />
         <div className={classes.main}>
-          <Header />
           <div className={classes.content}>
             <Post />
           </div>
