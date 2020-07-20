@@ -12,8 +12,8 @@ class Post extends Component {
       timeStamp: null,
       contentImage: null,
       contentText: null,
+      profilePic: null,
     },
-    profilePic: null,
   };
 
   componentDidMount() {
