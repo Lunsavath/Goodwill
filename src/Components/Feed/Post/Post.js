@@ -16,8 +16,10 @@ const post = (props) => {
         <div className={classes.image}>
           <img src={props.contentImage} alt="" />
         </div>
-        <div className={classes.text}>
-          <text>{props.contentText}</text>
+        <div>
+          <div className={classes.text}>
+            <text>{props.contentText}</text>
+          </div>
           <div>
             <a className={classes.fullpost} href=" ">
               See full post
