@@ -1,15 +1,6 @@
 .feed {
-<<<<<<< HEAD
-  display: flex;
-  flex-flow: row wrap;
-  height: 100%;
-  padding: 20px 0px;
-  align-items: flex-start;
-  justify-content: space-around;
-=======
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, auto));
   padding: 10px;
   margin: 0px 0px 0px 60px;
->>>>>>> 56adcebe297f0a00bd32323fb4bf92c54c185113
 }
