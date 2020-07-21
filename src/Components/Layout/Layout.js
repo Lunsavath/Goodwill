@@ -1,20 +1,19 @@
 import React, { Component } from "react";
-import Aux from "../../hoc/Aux";
 import Header from "../Header/Header";
 import classes from "./Layout.css";
-import Post from "../Feed/Post/Post";
+import Feed from "../Feed/Feed";
 
 class Layout extends Component {
   render() {
     return (
-      <Aux>
-        <Header />
-        <div className={classes.main}>
-          <div className={classes.content}>
-            <Post />
-          </div>
+      <div className={classes.main}>
+        <div>
+          <Header />
         </div>
-      </Aux>
+        <div className={classes.content}>
+          <Feed />
+        </div>
+      </div>
     );
   }
 }

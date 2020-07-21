@@ -1,8 +1,7 @@
 .post {
-  position: absolute;
+  position: relative;
   width: 236px;
   height: 360.74px;
-  top: 20px;
   background: #ffffff;
   border: 1.12381px solid #ececec;
   box-sizing: border-box;
@@ -74,6 +73,11 @@
   height: 159.58px;
 }
 
+.image img {
+  height: 100%;
+  width: 100%;
+}
+
 .text {
   position: absolute;
   width: 206.78px;
@@ -86,6 +90,11 @@
   font-weight: normal;
   font-style: normal;
   color: #5b6173;
+}
+
+.text text {
+  width: 100%;
+  height: 100%;
 }
 
 .fullpost {
@@ -123,6 +132,7 @@
   border: 0.876523px solid #0abf53;
   box-sizing: border-box;
   border-radius: 1.75305px;
+  text-align: center;
 }
 
 .trend text {
@@ -132,6 +142,6 @@
   font-size: 12.4211px;
   line-height: 15px;
   color: #0abf53;
-  padding: 10px;
+  padding: 2px;
   white-space: nowrap;
 }
