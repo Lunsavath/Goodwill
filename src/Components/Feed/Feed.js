@@ -22,7 +22,7 @@ class Feed extends Component {
       id: feed,
       ...feed[key],
     }));
-
+    console.log(feedItems);
     return (
       <div className={classes.feed}>
         {feedItems.map((items) => (
