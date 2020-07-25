@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./Post.css";
 import ShareButton from "../../UI/ShareButton/ShareButton";
+import { Link } from "react-router-dom";
 
 const post = (props) => {
   return (
@@ -18,18 +19,16 @@ const post = (props) => {
         </div>
         <div>
           <div className={classes.text}>
-            <text>{props.contentText}</text>
+            <span>{props.contentText}</span>
           </div>
-          <div>
-            <a className={classes.fullpost} href=" ">
-              See full post
-            </a>
+          <div className={classes.fullpost}>
+            <Link to="/fullpost">See Full Post</Link>
           </div>
         </div>
       </div>
       <div className={classes.footer}>
         <div className={classes.trend}>
-          <text>{props.trend}</text>
+          <span>{props.trend}</span>
         </div>
         <ShareButton />
       </div>

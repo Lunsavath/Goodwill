@@ -7,7 +7,6 @@
   box-sizing: border-box;
   box-shadow: -3px 3.37143px 6.74286px rgba(0, 0, 0, 0.12);
   border-radius: 4.49524px;
-  overflow: hidden;
 }
 
 .header {
@@ -91,13 +90,14 @@
   font-weight: normal;
   font-style: normal;
   color: #5b6173;
+  overflow: hidden;
 }
 
 .fullpost {
-  position: relative;
+  position: absolute;
   width: 71.92px;
   height: 16.86px;
-  top: 236px;
+  top: 240px;
   left: 21.35px;
   font-family: "Quicksand";
   font-style: normal;
@@ -105,6 +105,7 @@
   font-size: 12.4211px;
   line-height: 15px;
   color: #0afb53;
+  white-space: nowrap;
 }
 
 .footer {
@@ -132,7 +133,7 @@
   text-align: center;
 }
 
-.trend text {
+.trend span {
   font-family: "Quicksand";
   font-style: normal;
   font-weight: normal;

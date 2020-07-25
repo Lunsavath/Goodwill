@@ -1,7 +1,6 @@
 .main {
   margin: 0;
   border: 0;
-  height: 100%;
 }
 
 .content {
@@ -10,5 +9,4 @@
   height: 100%;
   width: 100%;
   background: #e5e5e5;
-
 }

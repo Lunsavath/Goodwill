@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Header from "../Header/Header";
 import classes from "./Layout.css";
 import Feed from "../Feed/Feed";
+import { Route, Switch } from "react-router-dom";
+import FullPost from "../Feed/FullPost/FullPost";
 
 class Layout extends Component {
   render() {
@@ -11,7 +13,10 @@ class Layout extends Component {
           <Header />
         </div>
         <div className={classes.content}>
-          <Feed />
+          <Switch>
+            <Route path="/" exact component={Feed} />
+            <Route path="/fullpost" component={FullPost} />
+          </Switch>
         </div>
       </div>
     );
