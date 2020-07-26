@@ -2,9 +2,9 @@
   position: absolute;
   background: #e5e5e5;
   width: 100%;
-  height: 84vh;
+  height: 100vh;
 }
-/* 
+
 .photo_container {
   position: absolute;
   width: 562px;
@@ -38,7 +38,7 @@
 }
 
 .profileimage img {
-  width: 70%;
+  width: 100%;
   border-radius: 50%;
 }
 
@@ -59,7 +59,7 @@
 .timestamp {
   position: absolute;
   width: 140.18px;
-  height: 24.96px;
+  height: 24.96.96px;
   left: 60.63px;
   top: 36.27px;
   font-family: "Quicksand";
@@ -68,4 +68,21 @@
   font-size: 13.9916px;
   line-height: 17px;
   color: #9a9b9e;
-} */
+  white-space: nowrap;
+}
+
+.feedlink {
+  position: absolute;
+  width: 106px;
+  height: 18px;
+  left: 666px;
+  top: 645px;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #0afb53;
+  white-space: nowrap;
+}
