@@ -4,7 +4,7 @@ import classes from "./Layout.css";
 import { Route, Switch } from "react-router-dom";
 import FullPost from "../Feed/FullPost/FullPost";
 import axios from "axios";
-import Aux from "../Aux/Aux";
+import Auxilary from "../Auxilary/Auxilary";
 import Feed from "../Feed/Feed";
 
 class Layout extends Component {
@@ -23,18 +23,19 @@ class Layout extends Component {
   render() {
     let feed = () => {
       return (
-        <Aux>
+        <Auxilary>
           <Feed users={this.state.users} />
-        </Aux>
+        </Auxilary>
       );
     };
     let fullPost = () => {
       return (
-        <Aux>
-          <FullPost />
-        </Aux>
+        <Auxilary>
+          <FullPost users={this.state.users} />
+        </Auxilary>
       );
     };
+    console.log(this.state.users);
     return (
       <div className={classes.main}>
         <div>
