@@ -4,14 +4,10 @@ import pic from "../../../Assets/Images/self.jpg";
 import { Link } from "react-router-dom";
 
 const fullPost = (props) => {
-  const feedId = Object.keys(props.users).map((key) => ({
-    id: props.users,
-    ...props.users[key],
-  }));
   return (
     <div className={classes.fullpost_container}>
       <div className={classes.photo_container}>
-        <img src={feedId.profilePic} alt=" " />
+        <img src={pic} alt=" " />
       </div>
       <div className={classes.sidebar}>
         <div className={classes.profileimage}>
