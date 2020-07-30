@@ -6,7 +6,7 @@ const shareButton = (props) => {
   return (
     <div className={classes.sharebutton}>
       <img src={shareicon} alt="icon" />
-      <text>Share post</text>
+      <span className={classes.sharebutton_text}>Share post</span>
     </div>
   );
 };

@@ -4,12 +4,11 @@ import classes from "./Layout.css";
 import { Route, Switch } from "react-router-dom";
 import FullPost from "../Feed/FullPost/FullPost";
 import axios from "axios";
-import Auxilary from "../Auxilary/Auxilary";
 import Feed from "../Feed/Feed";
 
 class Layout extends Component {
   state = {
-    users: {},
+    users: [],
   };
 
   componentDidMount() {
@@ -21,20 +20,6 @@ class Layout extends Component {
   }
 
   render() {
-    let feed = () => {
-      return (
-        <Auxilary>
-          <Feed users={this.state.users} />
-        </Auxilary>
-      );
-    };
-    let fullPost = () => {
-      return (
-        <Auxilary>
-          <FullPost users={this.state.users} />
-        </Auxilary>
-      );
-    };
     console.log(this.state.users);
     return (
       <div className={classes.main}>
@@ -43,8 +28,12 @@ class Layout extends Component {
         </div>
         <div className={classes.content}>
           <Switch>
-            <Route path="/" exact component={feed} />
-            <Route path="/fullpost" component={fullPost} />
+            <Route
+              path="/"
+              exact
+              render={() => <Feed users={this.state.users} />}
+            />
+            <Route path="/fullpost" exact render={() => <FullPost />} />
           </Switch>
         </div>
       </div>

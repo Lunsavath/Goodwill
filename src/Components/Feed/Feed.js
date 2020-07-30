@@ -4,19 +4,19 @@ import classes from "./Feed.css";
 
 const feed = (props) => {
   const feedItems = Object.keys(props.users).map((key) => ({
-    id: props.users,
+    id: key,
     ...props.users[key],
   }));
   return (
     <div className={classes.feed}>
-      {feedItems.map((items) => (
+      {feedItems.map((items, index) => (
         <Post
-          key={items.id}
-          profileName={items.profileName}
-          profilePic={items.profilePic}
-          timeStamp={items.timeStamp}
-          contentImage={items.contentImage}
-          contentText={items.contentText}
+          key={index}
+          profilename={items.profileName}
+          profilepic={items.profilePic}
+          timestamp={items.timeStamp}
+          contentimage={items.contentImage}
+          contenttext={items.contentText}
           trend={items.trend}
         ></Post>
       ))}

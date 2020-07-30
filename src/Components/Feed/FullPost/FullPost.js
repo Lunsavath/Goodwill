@@ -7,11 +7,11 @@ const fullPost = (props) => {
   return (
     <div className={classes.fullpost_container}>
       <div className={classes.photo_container}>
-        <img src={pic} alt=" " />
+        <img src={props.profilepic} alt=" " />
       </div>
       <div className={classes.sidebar}>
         <div className={classes.profileimage}>
-          <img src={pic} alt="" />
+          <img src={props.profilePic} alt="" />
         </div>
         <div className={classes.profilename}>Tony Kroos</div>
         <div className={classes.timestamp}>3 Hours Ago</div>
