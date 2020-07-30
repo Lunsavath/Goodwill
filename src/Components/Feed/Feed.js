@@ -9,9 +9,9 @@ const feed = (props) => {
   }));
   return (
     <div className={classes.feed}>
-      {feedItems.map((items, index) => (
+      {feedItems.map((items) => (
         <Post
-          key={index}
+          key={items.id}
           profilename={items.profileName}
           profilepic={items.profilePic}
           timestamp={items.timeStamp}
